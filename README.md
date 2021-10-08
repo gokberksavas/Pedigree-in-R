@@ -1,0 +1,7 @@
+#PEDIGREE REPORT 
+
+ 
+
+  The pedigree information of the population can be used to construct the kinship matrix of a population.First of all, I opened a Pedigri_3 file with DAT extention in RStudio which contains the pedigree information of a population.In fact, a code suitable for both given data.I only choose one to use as an example.Then, I defined this table as p_data.If there are N number of individuals in the list, the kinship matrix should be (N*N) in size.Therefore I created a matrix called  akrabalik_matrisi and I have matched the number of rows and columns of this matrix to the number of rows in p_data.Then I matched the row and column names of the kinship matrix to row and column names in p_data.Then, I defined ana_no and baba_no expressions separately.This is to ensure that the code is not complex and that the code is more understandable.I used two for loop to find the elements of the matrix.The first for loop represents the rows of the matrix and second for loop represents the column of the matrix.I created an if-else statements.In the kinship matrix, a unit matrix should be formed in the number of individuals whose parents are indeterminate.Thats’s why I set the if condition in this direction.I created the unit matrix in the if part.I created the rest of the table with  mathematical operations based on information given to us in the else part.In this way, kinship matrix of population can be created based on pedigree of a population. 
+
+ 
